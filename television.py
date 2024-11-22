@@ -16,7 +16,8 @@ class Television:
 
     def power(self) -> None:
         '''
-        Determines if the TV is on or not
+        Determines if the TV is on or not,
+        determines whether the functions work or not
         '''
         if self.__status == False:
             self.__status = True
