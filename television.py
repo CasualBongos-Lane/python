@@ -29,10 +29,11 @@ class Television:
         '''
         Determines whether the tv is muted or not
         '''
-        if self.__muted == False:
-            self.__muted = True
-        else:
-            self.__muted = False
+        if self.__status:
+            if self.__muted == False:
+                self.__muted = True
+            else:
+                self.__muted = False
 
     def channel_up(self) -> None:
         '''
